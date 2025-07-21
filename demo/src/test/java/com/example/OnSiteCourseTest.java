@@ -24,6 +24,6 @@ public class OnSiteCourseTest {
 
         assertTrue(info.contains("Bases de Datos"));     
         assertTrue(info.contains("Sala A"));           
-        assertEquals("Prof. Juan", course.getProfessor());
+        assertEquals("Tito", course.getProfessor());
     }
 }
