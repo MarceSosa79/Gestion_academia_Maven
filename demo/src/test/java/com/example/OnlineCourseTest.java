@@ -18,13 +18,13 @@ public class OnlineCourseTest {
 
     @Test
     void testShowInformationIncludesPlatform() {
-        OnlineCourse course = new OnlineCourse("Testing", 60, "Unasigned", "Udemy");
+        OnlineCourse course = new OnlineCourse("Testing", 60, "Unassigned", "Udemy");
 
         String info = course.showInformation();
         assertNotNull(info);
         assertTrue(info.contains("Testing"));
         assertTrue(info.contains("60"));
-        assertTrue(info.contains("Unasigned"));
+        assertTrue(info.contains("Unassigned"));
         assertTrue(info.contains("Udemy")); 
     }
 }
